@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CrossSock::CrossClient">
+    <Position X="1" Y="0.5" Width="2.5" />
+    <Members>
+      <Method Name="~CrossClient" Hidden="true" />
+      <Field Name="addressFamily" Hidden="true" />
+      <Field Name="alivenessTestTimer" Hidden="true" />
+      <Field Name="attemptReconnectEvent" Hidden="true" />
+      <Field Name="clientID" Hidden="true" />
+      <Field Name="clientProperties" Hidden="true" />
+      <Field Name="clientState" Hidden="true" />
+      <Field Name="connectEvent" Hidden="true" />
+      <Field Name="connectionAttempts" Hidden="true" />
+      <Field Name="connectionTimer" Hidden="true" />
+      <Method Name="CrossClient" Hidden="true" />
+      <Field Name="dataEvents" Hidden="true" />
+      <Field Name="dataEventsByID" Hidden="true" />
+      <Field Name="dataEventsByName" Hidden="true" />
+      <Field Name="disconnectEvent" Hidden="true" />
+      <Field Name="failedReconnectEvent" Hidden="true" />
+      <Method Name="FillDataEventMaps" Hidden="true" />
+      <Method Name="GetAddressFamily" Hidden="true" />
+      <Method Name="GetClientProperties" Hidden="true" />
+      <Method Name="GetClientState" Hidden="true" />
+      <Method Name="GetLocalAddress" Hidden="true" />
+      <Method Name="GetServerAddress" Hidden="true" />
+      <Method Name="GetTCPSocket" Hidden="true" />
+      <Method Name="GetUDPSocket" Hidden="true" />
+      <Field Name="handshakeEvent" Hidden="true" />
+      <Method Name="Init" Hidden="true" />
+      <Method Name="IsStreamBound" Hidden="true" />
+      <Method Name="OnReceiveNewData" Hidden="true" />
+      <Field Name="ping" Hidden="true" />
+      <Field Name="readyEvent" Hidden="true" />
+      <Field Name="receiveEvent" Hidden="true" />
+      <Field Name="reconnectEvent" Hidden="true" />
+      <Method Name="ResetDataEventIDs" Hidden="true" />
+      <Field Name="serverAddress" Hidden="true" />
+      <Field Name="serverSocket" Hidden="true" />
+      <Method Name="SetAttemptReconnectHandler" Hidden="true" />
+      <Method Name="SetClientProperties" Hidden="true" />
+      <Method Name="SetConnectHandler" Hidden="true" />
+      <Method Name="SetDisconnectHandler" Hidden="true" />
+      <Method Name="SetHandshakeHandler" Hidden="true" />
+      <Method Name="SetReadyHandler" Hidden="true" />
+      <Method Name="SetReceiveDataHandler" Hidden="true" />
+      <Method Name="SetReconnectFailedHandler" Hidden="true" />
+      <Method Name="SetReconnectHandler" Hidden="true" />
+      <Method Name="SetTransmitErrorHandler" Hidden="true" />
+      <Field Name="streamIsBound" Hidden="true" />
+      <Field Name="streamSocket" Hidden="true" />
+      <Field Name="tcpBuffer" Hidden="true" />
+      <Field Name="tcpBufferLength" Hidden="true" />
+      <Field Name="timeoutDelay" Hidden="true" />
+      <Field Name="timeoutTimer" Hidden="true" />
+      <Field Name="transErrorEvent" Hidden="true" />
+      <Field Name="udpBuffer" Hidden="true" />
+      <Field Name="udpBufferLength" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgYWc1IhCgaAEhJAIxgAUILABCAuICAgCpZiCgcAAUA=</HashCode>
+      <FileName>CrossClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossSock::CrossClientEntry">
+    <Position X="12.25" Y="0.5" Width="1.75" />
+    <Members>
+      <Field Name="address" Hidden="true" />
+      <Field Name="clientID" Hidden="true" />
+      <Method Name="CrossClientEntry" Hidden="true" />
+      <Field Name="customData" Hidden="true" />
+      <Method Name="operator==" Hidden="true" />
+      <Field Name="ping" Hidden="true" />
+      <Method Name="ResetTimeout" Hidden="true" />
+      <Field Name="socket" Hidden="true" />
+      <Field Name="state" Hidden="true" />
+      <Field Name="tcpBuffer" Hidden="true" />
+      <Field Name="tcpBufferLength" Hidden="true" />
+      <Field Name="timeoutDelay" Hidden="true" />
+      <Field Name="timeoutTimer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAAAAgAIgAICAAAAAgAIQQBAAAIAACEECAFICgAAAAA=</HashCode>
+      <FileName>CrossServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossSock::CrossServer">
+    <Position X="9.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Method Name="~CrossServer" Hidden="true" />
+      <Field Name="addressFamily" Hidden="true" />
+      <Field Name="alivenessTestTimer" Hidden="true" />
+      <Field Name="bindEvent" Hidden="true" />
+      <Field Name="canConnectList" Hidden="true" />
+      <Method Name="Clients_Begin" Hidden="true" />
+      <Method Name="Clients_CBegin" Hidden="true" />
+      <Method Name="Clients_CEnd" Hidden="true" />
+      <Method Name="Clients_End" Hidden="true" />
+      <Field Name="connectedClients" Hidden="true" />
+      <Field Name="connectEvent" Hidden="true" />
+      <Method Name="CrossServer" Hidden="true" />
+      <Field Name="dataEvents" Hidden="true" />
+      <Field Name="dataEventsByID" Hidden="true" />
+      <Field Name="dataEventsByName" Hidden="true" />
+      <Field Name="destroyClientEvent" Hidden="true" />
+      <Field Name="disconnectedClients" Hidden="true" />
+      <Field Name="disconnectEvent" Hidden="true" />
+      <Field Name="failedReconnectEvent" Hidden="true" />
+      <Method Name="FillDataEventMaps" Hidden="true" />
+      <Method Name="GetAddressFamily" Hidden="true" />
+      <Method Name="GetDataIDFromName" Hidden="true" />
+      <Method Name="GetListenSocket" Hidden="true" />
+      <Method Name="GetLocalAddress" Hidden="true" />
+      <Method Name="GetNumConnectedClients" Hidden="true" />
+      <Method Name="GetPort" Hidden="true" />
+      <Method Name="GetServerID" Hidden="true" />
+      <Method Name="GetServerProperties" Hidden="true" />
+      <Method Name="GetServerState" Hidden="true" />
+      <Method Name="GetStreamSocket" Hidden="true" />
+      <Method Name="Init" Hidden="true" />
+      <Field Name="initializeClientEvent" Hidden="true" />
+      <Method Name="IsReady" Hidden="true" />
+      <Method Name="IsRunning" Hidden="true" />
+      <Method Name="IsStreamBound" Hidden="true" />
+      <Field Name="listenSocket" Hidden="true" />
+      <Field Name="nextAvailableClientID" Hidden="true" />
+      <Field Name="nextAvailableDataID" Hidden="true" />
+      <Method Name="OnReceiveNewData" Hidden="true" />
+      <Field Name="port" Hidden="true" />
+      <Field Name="readyEvent" Hidden="true" />
+      <Field Name="receiveEvent" Hidden="true" />
+      <Field Name="reconnectEvent" Hidden="true" />
+      <Field Name="rejectEvent" Hidden="true" />
+      <Field Name="serverProperties" Hidden="true" />
+      <Field Name="serverState" Hidden="true" />
+      <Method Name="SetClientConnectedHandler" Hidden="true" />
+      <Method Name="SetClientDisconnectedHandler" Hidden="true" />
+      <Method Name="SetClientReadyHandler" Hidden="true" />
+      <Method Name="SetClientReconnectedHandler" Hidden="true" />
+      <Method Name="SetClientReconnectFailedHandler" Hidden="true" />
+      <Method Name="SetClientRejectedHandler" Hidden="true" />
+      <Method Name="SetClientValidationHandler" Hidden="true" />
+      <Method Name="SetDestroyClientHandler" Hidden="true" />
+      <Method Name="SetInitializeClientHandler" Hidden="true" />
+      <Method Name="SetReceiveDataHandler" Hidden="true" />
+      <Method Name="SetServerBindHandler" Hidden="true" />
+      <Method Name="SetServerProperties" Hidden="true" />
+      <Method Name="SetTransmitErrorHandler" Hidden="true" />
+      <Field Name="streamIsBound" Hidden="true" />
+      <Field Name="streamSocket" Hidden="true" />
+      <Field Name="transErrorEvent" Hidden="true" />
+      <Field Name="udpBuffer" Hidden="true" />
+      <Field Name="udpBufferLength" Hidden="true" />
+      <Field Name="validateEvent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>HgQiYRMwamYAAiYAIRREUlQOBEQCoCgg6JQiAgMBEUA=</HashCode>
+      <FileName>CrossServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CrossSock::CrossClientProperties">
+    <Position X="3.75" Y="2.75" Width="2.25" />
+    <Members>
+      <Method Name="CrossClientProperties" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEQAAAAAAAAAAMAAAAAAEAQEAAAAAAAABAQAA=</HashCode>
+      <FileName>CrossClient.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CrossSock::CrossServerProperties">
+    <Position X="14.25" Y="2.25" Width="2.75" />
+    <Members>
+      <Method Name="CrossServerProperties" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACABAEgAAAAAAAAAAEAAQAAIEAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>CrossServer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="CrossSock::CrossClientState">
+    <Position X="3.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAEAAAAQAAAJAAAAAAAQAAAgAAAAAAA=</HashCode>
+      <FileName>CrossClient.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CrossSock::CrossClientEntryState">
+    <Position X="14.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAA=</HashCode>
+      <FileName>CrossServer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CrossSock::CrossServerState">
+    <Position X="12.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAIAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CrossServer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

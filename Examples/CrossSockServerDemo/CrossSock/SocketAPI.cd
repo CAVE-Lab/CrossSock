@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CrossSock::CrossSockAddress">
+    <Position X="9.75" Y="0.75" Width="2.5" />
+    <Members>
+      <Field Name="ANY_ADDRESS" Hidden="true" />
+      <Method Name="CrossSockAddress" Hidden="true" />
+      <Method Name="GetAsSockAddrIn" Hidden="true" />
+      <Method Name="GetIP4Ref" Hidden="true" />
+      <Method Name="Hash" Hidden="true" />
+      <Field Name="mSockAddr" Hidden="true" />
+      <Method Name="operator const char*" Hidden="true" />
+      <Method Name="operator==" Hidden="true" />
+      <Method Name="string" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAIAEACEAAAgIQAAAAAQAAFCAkACBQAAAAA=</HashCode>
+      <FileName>CrossSock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossSock::UDPSocket">
+    <Position X="2.75" Y="0.75" Width="2" />
+    <Members>
+      <Method Name="~UDPSocket" Hidden="true" />
+      <Field Name="mSocket" Hidden="true" />
+      <Method Name="UDPSocket" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAB0AAAQAAAAAAAAIAAAAAABAAAAAEAAAAAAACAAAA=</HashCode>
+      <FileName>CrossSock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossSock::TCPSocket">
+    <Position X="0.5" Y="0.75" Width="2" />
+    <Members>
+      <Method Name="~TCPSocket" Hidden="true" />
+      <Field Name="mSocket" Hidden="true" />
+      <Method Name="TCPSocket" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIABgCAAAAAAAEAAAMAAAIAABAAAAAEQAAIAAACAAAA=</HashCode>
+      <FileName>CrossSock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossSock::CrossSockUtil">
+    <Position X="5" Y="0.75" Width="1.75" />
+    <Members>
+      <Method Name="FillSetFromVector" Hidden="true" />
+      <Method Name="FillVectorFromSet" Hidden="true" />
+      <Field Name="MAX_NAME_SIZE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAgAAAAAAAAIEAAAAAAAAAAAAAACAAABQCYEACAAA=</HashCode>
+      <FileName>CrossSock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CrossSock::CrossSockAddressFamily">
+    <Position X="7.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>CrossSock.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CrossSock::CrossSockError">
+    <Position X="7.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAQAAAAAAEAAAAAABAABBAAAAAAAAg=</HashCode>
+      <FileName>CrossSock.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,13 @@
+﻿  CrossSockClientDemo.cpp
+c:\users\brandon\desktop\crosssock\crosssock\crosssock.h(357): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\brandon\desktop\crosssock\crosssock\crosssock.h(363): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\brandon\desktop\crosssock\crosssock\crossserver.h(637): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\brandon\desktop\crosssock\crosssock\crossutil.h(362): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\brandon\desktop\crosssock\crosssock\crossutil.h(361): note: while compiling class template member function 'int CrossSock::CrossDataEvent<const CrossSock::CrossPack *,CrossSock::CrossClientEntry *,CrossSock::NetTransMethod>::GetNumCallbacks(void) const'
+  c:\users\brandon\desktop\crosssock\crosssock\crossserver.h(1414): note: see reference to function template instantiation 'int CrossSock::CrossDataEvent<const CrossSock::CrossPack *,CrossSock::CrossClientEntry *,CrossSock::NetTransMethod>::GetNumCallbacks(void) const' being compiled
+  c:\users\brandon\desktop\crosssock\crosssock\crossserver.h(174): note: see reference to class template instantiation 'CrossSock::CrossDataEvent<const CrossSock::CrossPack *,CrossSock::CrossClientEntry *,CrossSock::NetTransMethod>' being compiled
+c:\users\brandon\desktop\crosssock\crosssock\crossutil.h(276): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\brandon\desktop\crosssock\crosssock\crossutil.h(275): note: while compiling class template member function 'CrossSock::CrossDataEvent<const CrossSock::CrossPack *,CrossSock::CrossClientEntry *,CrossSock::NetTransMethod>::~CrossDataEvent(void)'
+  c:\users\brandon\desktop\crosssock\crosssock\crossserver.h(1456): note: see reference to function template instantiation 'CrossSock::CrossDataEvent<const CrossSock::CrossPack *,CrossSock::CrossClientEntry *,CrossSock::NetTransMethod>::~CrossDataEvent(void)' being compiled
+  CrossSock.vcxproj -> C:\Users\Brandon\Desktop\CrossSock\Examples\CrossSockClientDemo\x64\Debug\CrossSockServerDemo.exe
+  CrossSock.vcxproj -> C:\Users\Brandon\Desktop\CrossSock\Examples\CrossSockClientDemo\x64\Debug\CrossSockServerDemo.pdb (Full PDB)

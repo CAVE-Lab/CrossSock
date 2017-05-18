@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CrossSock::CrossPack">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <Members>
+      <Method Name="~CrossPack" Hidden="true" />
+      <Method Name="CalculateChecksum" Hidden="true" />
+      <Method Name="Copy" Hidden="true" />
+      <Method Name="CrossPack" Hidden="true" />
+      <Field Name="footer" Hidden="true" />
+      <Method Name="GetChecksum" Hidden="true" />
+      <Method Name="GetDataID" Hidden="true" />
+      <Method Name="GetFooterLength" Hidden="true" />
+      <Method Name="GetFooterSize" Hidden="true" />
+      <Method Name="GetHeaderSize" Hidden="true" />
+      <Method Name="GetMaxPacketSize" Hidden="true" />
+      <Method Name="GetPacketFlag" Hidden="true" />
+      <Method Name="GetPacketSize" Hidden="true" />
+      <Method Name="GetPacketState" Hidden="true" />
+      <Method Name="GetPayloadSize" Hidden="true" />
+      <Method Name="GetRemainingPayloadSize" Hidden="true" />
+      <Method Name="GetSenderID" Hidden="true" />
+      <Field Name="hasBeenFinalized" Hidden="true" />
+      <Field Name="hasBeenSerialized" Hidden="true" />
+      <Field Name="header" Hidden="true" />
+      <Method Name="IsFinalized" Hidden="true" />
+      <Method Name="IsValid" Hidden="true" />
+      <Field Name="MAX_PAYLOAD_BYTES" Hidden="true" />
+      <Field Name="payload" Hidden="true" />
+      <Field Name="removeIdx" Hidden="true" />
+      <Method Name="SetDataID" Hidden="true" />
+      <Method Name="SetPacketFlag" Hidden="true" />
+      <Method Name="SetPacketState" Hidden="true" />
+      <Field Name="shouldDeleteData" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>JAGCCBUBgAEABDEAEQiAAgCgAiEA4CAACAABACgAAQA=</HashCode>
+      <FileName>CrossPack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CrossSock::CrossPackHeader">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="CrossPackHeader" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAACAAAIAAAAAAABAAA=</HashCode>
+      <FileName>CrossPack.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CrossSock::CrossPackFooter">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <Members>
+      <Method Name="CrossPackFooter" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>CrossPack.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CrossSock::CrossTimer">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <Members>
+      <Method Name="CrossTimer" Hidden="true" />
+      <Field Name="start" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>CrossUtil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossSock::CrossSysUtil">
+    <Position X="4.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAACABgAAAACAAAAAAAAggAAAAAAAAQA=</HashCode>
+      <FileName>CrossUtil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrossSock::CrossEvent&lt;Return, ...Arguments&gt;">
+    <Position X="2" Y="4.5" Width="2.5" />
+    <Members>
+      <Method Name="~CrossEvent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAQAEAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CrossUtil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CrossSock::NetTransMethod">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CrossUtil.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CrossSock::NetTransError">
+    <Position X="8" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAACAQAAACAAAAAEAAAAAAABACAA=</HashCode>
+      <FileName>CrossUtil.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CrossSock::StaticDataID">
+    <Position X="10.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAQAAAgAAIAAAAAAAAAAAAAAAAAAAIABAAEEAA=</HashCode>
+      <FileName>CrossUtil.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
